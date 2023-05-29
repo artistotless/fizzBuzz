@@ -1,9 +1,3 @@
-namespace Algos
-{
-    public class FizzBuzz
-    {
-        public void Start()
-        {
             var queue = new Queue<(int, string)>();
 
             bool matched = false;
@@ -36,6 +30,3 @@ namespace Algos
                 i--;
                 continue;
             }
-        }
-    }
-}
